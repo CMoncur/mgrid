@@ -6,6 +6,11 @@
 /*** -- Last Updated: Jan 28, 2013 ----- ***/
 /*******************************************/
 
+/* -- Imperatives -- */
+body {
+	margin: 0;
+	padding: 0;
+}
 
 /* -- Container -- */
 .cont {
@@ -15,31 +20,25 @@
 
 
 /* -- Grid -- */
-.full, .bi1, .bi2,
-.tri1, .tri2, .tri3,
-.quad1, .quad2, .quad3, .quad4 {/* Relevant to all elements */
+.full, .bi, .tri, .quad {/* Relevant to all elements */
 	float: left;
-	margin: 0 20px 0 20px;
+	margin: 10px;
 }
 
 .full { /* Full Span */
-	width: 920px;
+	width: 940px;
 }
 
-.bi1, .bi2 { /* Bisections */
-	width: 450px;
+.bi { /* Bisections */
+	width: 460px;
 }
 
-.tri1, .tri3 { /* Trisections */
-	width: 293px;
+.tri { /* Trisections */
+	width: 300px;
 }
 
-.tri2 { /* Center Trisection */
-	width: 294px;
-}
-
-.quad1, .quad2, .quad3, .quad4 { /* Quadrisections */
-	width: 215px;
+.quad { /* Quadrisections */
+	width: 220px;
 }
 
 
