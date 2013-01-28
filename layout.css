@@ -17,7 +17,7 @@
 /* -- Grid -- */
 .full, .bi1, .bi2,
 .tri1, .tri2, .tri3,
-.quad1, .quad2, .quad3, .quad4 {
+.quad1, .quad2, .quad3, .quad4 {/* Relevant to all elements */
 	float: left;
 	margin: 0 20px 0 20px;
 }
