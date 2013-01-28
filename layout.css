@@ -1,0 +1,54 @@
+/*******************************************/
+/*** -- moncurgrid CSS Grid Framework -- ***/
+/*** -- Created By: Cody Moncur -------- ***/
+/*** -- Licenced under GPL and MIT ----- ***/
+/*** -- Created On: Jan 28, 2013 ------- ***/
+/*** -- Last Updated: Jan 28, 2013 ----- ***/
+/*******************************************/
+
+
+/* -- Container -- */
+.cont {
+	margin: 0 auto;
+	width: 960px;
+}
+
+
+/* -- Grid -- */
+.full, .bi1, .bi2,
+.tri1, .tri2, .tri3,
+.quad1, .quad2, .quad3, .quad4 {
+	float: left;
+	margin: 0 20px 0 20px;
+}
+
+.full { /* Full Span */
+	width: 920px;
+}
+
+.bi1, .bi2 { /* Bisections */
+	width: 450px;
+}
+
+.tri1, .tri3 { /* Trisections */
+	width: 293px;
+}
+
+.tri2 { /* Center Trisection */
+	width: 294px;
+}
+
+.quad1, .quad2, .quad3, .quad4 { /* Quadrisections */
+	width: 215px;
+}
+
+
+/* -- Clearfix -- */
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
