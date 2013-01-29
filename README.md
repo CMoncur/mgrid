@@ -66,7 +66,7 @@ Reviewing the code examples above, you might notice tags that look similar to th
 	<div class="cf">
 This method is known as a "clearfix".  Clearfix is simply an exploit that forces a parent element to match the height of it's floated child elements.  The clearfix method is used to maintain the grid's structure and integrity.  
   
- ## Plugins
+ ## Plugins  
  The moncurgrid system includes optional plugins to make other facets of CSS easy as pie.  Below are a list of optional plugins:  
  - Navigation
  - Typography
