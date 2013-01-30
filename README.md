@@ -11,59 +11,59 @@ Unlike other popular grid systems that can be split into 12 or more columns, the
 ### Quadrisections  
 Quadrisections are divisions that are sized to be equal to one quarter of the container element.  Quadrisections are 220 pixels wide, with a 10 pixel margin.  An example of a quadrisection in use would look similar to this:  
 ```
-  <div class="cf">
-		<div class="quad">
-			Lorem ipsum dolor sit amet
-		</div>
-		<div class="quad">
-			Lorem ipsum dolor sit amet
-		</div>
-		<div class="quad">
-			Lorem ipsum dolor sit amet
-		</div>
-		<div class="quad">
-			Lorem ipsum dolor sit amet
-		</div>
+<div class="cf">
+	<div class="quad">
+		Lorem ipsum dolor sit amet
 	</div>
+	<div class="quad">
+		Lorem ipsum dolor sit amet
+	</div>
+	<div class="quad">
+		Lorem ipsum dolor sit amet
+	</div>
+	<div class="quad">
+		Lorem ipsum dolor sit amet
+	</div>
+</div>
 ```
   
 ### Trisections  
 Trisections are divisions that are sized to be equal to one third of the container element.  Trisections are 300 pixels wide, with a 10 pixel margin.  An example of a trisection in use would look similar to this:  
 ```
-	<div class="cf">
-		<div class="tri">
-			Lorem ipsum dolor sit amet
-		</div>
-		<div class="tri">
-			Lorem ipsum dolor sit amet
-		</div>
-		<div class="tri">
-			Lorem ipsum dolor sit amet
-		</div>
+<div class="cf">
+	<div class="tri">
+		Lorem ipsum dolor sit amet
 	</div>
+	<div class="tri">
+		Lorem ipsum dolor sit amet
+	</div>
+	<div class="tri">
+		Lorem ipsum dolor sit amet
+	</div>
+</div>
 ```
   
 ### Bisections  
 Bisections are divisions that are sized to be equal to one half of the container element.  Bisections are 300 pixels wide, with a 10 pixel margin.  An example of a bisection in use would look similar to this:  
 ```
-	<div class="cf">
-		<div class="bi">
-			Lorem ipsum dolor sit amet
-		</div>
-		<div class="bi">
-			Lorem ipsum dolor sit amet
-		</div>
+<div class="cf">
+	<div class="bi">
+		Lorem ipsum dolor sit amet
 	</div>
+	<div class="bi">
+		Lorem ipsum dolor sit amet
+	</div>
+</div>
 ```
   
 ### Full Span  
 Full spans are divisions that are sized to span the entirety of the container element.  Full spans are 940 pixels wide, with a 10 pixel margin.  An example of a full span in use would look similar to this:  
 ```
-	<div class="cf">
-		<div class="full">
-			Lorem ipsum dolor sit amet
-		</div>
+<div class="cf">
+	<div class="full">
+		Lorem ipsum dolor sit amet
 	</div>
+</div>
 ```
   
 ### Container Element
@@ -95,11 +95,11 @@ The moncurgrid system includes optional plugins to make other facets of CSS easy
 ### Implementation  
 In order to use one or more of the aforementioned plugins, simply use one of the following methods:  
 ```
-	<link rel="stylesheet" type="text/css" href="typography.css">
+<link rel="stylesheet" type="text/css" href="typography.css">
 ```
 or
 ```
-	@import url('typography.css');
+@import url('typography.css');
 ```
   
 ### Navigation
