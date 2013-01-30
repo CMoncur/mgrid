@@ -8,18 +8,6 @@ Unlike other popular grid systems that can be split into 12 or more columns, the
 - Bisections
 - "Full Span"  
   
-### Quadrisections
-Quadrisections are divisions that are sized to be equal to one quarter of the container element.  Quadrisections are 220 pixels wide, with a 10 pixel margin.
-  
-### Trisections
-Trisections are divisions that are sized to be equal to one third of the container element.  Trisections are 300 pixels wide, with a 10 pixel margin.
-  
-### Bisections
-Bisections are divisions that are sized to be equal to one half of the container element.  Bisections are 300 pixels wide, with a 10 pixel margin.
-  
-### Full Span
-Full spans are divisions that are sized to span the entirety of the container element.  Full spans are 940 pixels wide, with a 10 pixel margin.
-
 ### Quadrisections  
 Quadrisections are divisions that are sized to be equal to one quarter of the container element.  Quadrisections are 220 pixels wide, with a 10 pixel margin.  An example of a quadrisection in use would look similar to this:  
 ```
@@ -127,5 +115,5 @@ As you might have guessed, the forms.css plugin is designed to streamline form s
 The moncurgrid system is degisned to work on all major standards-compliant browsers (i.e. Chrome, Firefox, Opera, Safari).  moncurgrid also supports Internet Explorer versions 8 and later.  
 
 ## License
-moncurgrid is licensed under MIT and GPL.
+moncurgrid is licensed under MIT and GPL.  
 Copyright (c) 2013 Cody Moncur
