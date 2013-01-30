@@ -8,7 +8,6 @@ Unlike other popular grid systems that can be split into 12 or more columns, the
 - Bisections
 - "Full Span"  
   
-<<<<<<< HEAD
 ### Quadrisections
 Quadrisections are divisions that are sized to be equal to one quarter of the container element.  Quadrisections are 220 pixels wide, with a 10 pixel margin.
   
@@ -82,7 +81,6 @@ Full spans are divisions that are sized to span the entirety of the container el
 ### Container Element
 The container element is a transparent divider that is 960 pixels wide.  The container element is designed to contain all gridded elements.  
   
-<<<<<<< HEAD
 ### Clearfix
 Reviewing the example docment, you might have noticed elements wih a 'cf' class. This method is known as a "clearfix".  Clearfix is simply an exploit that forces a parent element to match the height of it's floated child elements.  The clearfix method is used to maintain the grid's structure and integrity.  
   
@@ -93,8 +91,8 @@ The moncurgrid system includes optional plugins to make other facets of CSS easy
  - Forms  
 
 ### Implementation
-In order to use one or more of the aforementioned plugins, simply use either the 'link rel' or '@import' method.
-=======
+In order to use one or more of the aforementioned plugins, simply use either the 'link rel' or '@import' method.  
+
 ### Clearfix  
 Reviewing the code examples above, you might notice tags that look similar to this:
 ```<div class="cf">```
@@ -126,4 +124,8 @@ The typography.css plugin is designed to streamline text style.
 As you might have guessed, the forms.css plugin is designed to streamline form style.  
   
 ## Browser Support
-The moncurgrid system is degisned to work on all major standards-compliant browsers (i.e. Chrome, Firefox, Opera, Safari).  moncurgrid also supports Internet Explorer versions 8 and later.
+The moncurgrid system is degisned to work on all major standards-compliant browsers (i.e. Chrome, Firefox, Opera, Safari).  moncurgrid also supports Internet Explorer versions 8 and later.  
+
+## License
+moncurgrid is licensed under MIT and GPL.
+Copyright (c) 2013 Cody Moncur
