@@ -1,0 +1,54 @@
+/*******************************************/
+/*** -- moncurgrid CSS Grid Framework -- ***/
+/*** -- Navigation --------------------- ***/
+/*** -- Created By: Cody Moncur -------- ***/
+/*** -- Licenced under GPL and MIT ----- ***/
+/*** -- Created On: Jan 28, 2013 ------- ***/
+/*** -- Last Updated: Jan 31, 2013 ----- ***/
+/*******************************************/
+
+/* -- Imperatives -- */
+a,
+a:active,
+a:visited {
+	color: #000;
+	font-family: Helvetica;
+	text-decoration: underline;
+	margin: 0;
+}
+
+a:hover { color: #999; }
+
+/* -- Layout Defined -- */
+.full a,
+.full a:active,
+.full a:visited {
+	/* Relevant to anchors in full spans */
+}
+
+.bi a,
+.bi a:active,
+.bi a:visited {
+	/* Relevant to anchors in bisections */
+}
+
+.tri a,
+.tri a:active,
+.tri a:visited {
+	/* Relevant to anchors in trisections */
+}
+
+.quad a,
+.quad a:active,
+.quad a:visited {
+	/* Relevant to anchors in quadrisections */
+}
+
+/* Hover pseudo-elements for layout defined anchors */
+.full a:hover { /* Relevant to hover pseudo-element for anchors in full spans */ };
+.bi a:hover { /* Relevant to hover pseudo-element for anchors in bisections */ };
+.tri a:hover { /* Relevant to hover pseudo-element for anchors in trisections */ };
+.quad a:hover { /* Relevant to hover pseudo-element for anchors in quadrisections */ };
+
+/* -- Layout Specific -- */
+/* (Relevant to your project!) */

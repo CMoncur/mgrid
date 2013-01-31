@@ -4,12 +4,13 @@
 /*** -- Created By: Cody Moncur -------- ***/
 /*** -- Licenced under GPL and MIT ----- ***/
 /*** -- Created On: Jan 28, 2013 ------- ***/
-/*** -- Last Updated: Jan 29, 2013 ----- ***/
+/*** -- Last Updated: Jan 31, 2013 ----- ***/
 /*******************************************/
 
+/* -- Imperatives -- */
 h1, h2, h3, h4, h5, h6, p {
-	color: #000;
-	font-family: Arial;
+	font-family: Helvetica;
+	line-height: 1em;
 	margin: 10px;
 }
 
@@ -38,5 +39,29 @@ h6 {
 }
 
 p {
-	font-size: 1em;
+	font-size: 1.2em;
 }
+
+/* -- Layout Defined -- */
+.full h1, .full h2, .full h3,
+.full h4, .full h5, .full h6 {
+	/* Relevant to headers in full spans */
+}
+
+.bi h1, .bi h2, .bi h3,
+.bi h4, .bi h5, .bi h6 {
+	/* Relevant to headers in bisections */
+}
+
+.tri h1, .tri h2, .tri h3,
+.tri h4, .tri h5, .tri h6 {
+	/* Relevant to headers in trisections */
+}
+
+.quad h1, .quad h2, .quad h3,
+.quad h4, .quad h5, .quad h6 {
+	/* Relevant to headers in quadrisections */
+}
+
+/* Layout Specific */
+/* (Relevant to your project!) */

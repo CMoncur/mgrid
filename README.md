@@ -1,8 +1,16 @@
-# moncurgrid  
+# mgrid  
 ### The world's most lightweight CSS grid framework, designed to streamline front-end development  
   
+## Preface
+mgrid is designed to be a simple and easily implemented starting point for web projects large and small.  It promotes CSS best practices, minimizes redundancy, and will allow a project to scale.  mgrid will not be for everyone, as it is not quite as flexible as popular alternatives such as the 960 grid system.  However, for an overwhelming majority of grid-based web projects, mgrid is a perfect fit.  In fact, the site designs of the most popular grid systems (960.gs, 978.gs, blueprintcss.org, etc...) could have been implemented easier using mgrid as opposed to the grid system advertised.  
+  
+### Ready to get started?
+Here is an extensive list of things you'll need before using mgrid:  
+- A computer
+- A fundamental understanding of CSS
+  
 ## Overview
-Unlike other popular grid systems that can be split into 12 or more columns, the moncurgrid system focuses on only the most common divisions:  
+Unlike other popular grid systems that can be split into 12 or more columns, the mgrid system focuses on only the most common divisions:  
 - Quadrisections
 - Trisections
 - Bisections
@@ -68,26 +76,14 @@ Full spans are divisions that are sized to span the entirety of the container el
   
 ### Container Element
 The container element is a transparent divider that is 960 pixels wide.  The container element is designed to contain all gridded elements.  
-  
-### Clearfix
-Reviewing the example docment, you might have noticed elements wih a 'cf' class. This method is known as a "clearfix".  Clearfix is simply an exploit that forces a parent element to match the height of it's floated child elements.  The clearfix method is used to maintain the grid's structure and integrity.  
-  
-## Plugins
-The moncurgrid system includes optional plugins to make other facets of CSS easy as pie.  Below are a list of optional plugins:  
- - Navigation
- - Typography
- - Forms  
-
-### Implementation
-In order to use one or more of the aforementioned plugins, simply use either the 'link rel' or '@import' method.  
-
+   
 ### Clearfix  
 Reviewing the code examples above, you might notice tags that look similar to this:
 ```<div class="cf">```
-This method is known as a "clearfix".  Clearfix is simply an exploit that forces a parent element to match the height of it's floated child elements.  The clearfix method is used to maintain the grid's structure and integrity.  
+This method is known as a "clearfix".  Clearfix is simply an exploit that forces a parent element to match the height of it's floated child elements.  The clearfix method is used to maintain the grid's structural integrity.  
   
 ## Plugins
-The moncurgrid system includes optional plugins to make other facets of CSS easy as pie.  Below are a list of optional plugins:  
+The mgrid system includes optional plugins to make other facets of CSS easy as pie.  Below are a list of optional plugins:  
 - Navigation
 - Typography
 - Forms  
@@ -112,8 +108,8 @@ The typography.css plugin is designed to streamline text style.
 As you might have guessed, the forms.css plugin is designed to streamline form style.  
   
 ## Browser Support
-The moncurgrid system is degisned to work on all major standards-compliant browsers (i.e. Chrome, Firefox, Opera, Safari).  moncurgrid also supports Internet Explorer versions 8 and later.  
+The mgrid system is degisned to work on all major standards-compliant browsers (i.e. Chrome, Firefox, Opera, Safari).  mgrid also supports Internet Explorer versions 8 and later.  
 
 ## License
-moncurgrid is licensed under MIT and GPL.  
+mgrid is licensed under MIT and GPL.  
 Copyright (c) 2013 Cody Moncur
