@@ -14,7 +14,6 @@ a:visited {
 	color: #000;
 	font-family: Helvetica;
 	text-decoration: underline;
-	margin: 0;
 }
 
 a:hover { color: #999; }
@@ -45,10 +44,10 @@ a:hover { color: #999; }
 }
 
 /* Hover pseudo-elements for layout defined anchors */
-.full a:hover { /* Relevant to hover pseudo-element for anchors in full spans */ };
-.bi a:hover { /* Relevant to hover pseudo-element for anchors in bisections */ };
-.tri a:hover { /* Relevant to hover pseudo-element for anchors in trisections */ };
-.quad a:hover { /* Relevant to hover pseudo-element for anchors in quadrisections */ };
+.full a:hover { /* Relevant to hover pseudo-element for anchors in full spans */ }
+.bi a:hover { /* Relevant to hover pseudo-element for anchors in bisections */ }
+.tri a:hover { /* Relevant to hover pseudo-element for anchors in trisections */ }
+.quad a:hover { /* Relevant to hover pseudo-element for anchors in quadrisections */ }
 
 /* -- Layout Specific -- */
 /* (Relevant to your project!) */
