@@ -52,7 +52,7 @@ Trisections are divisions that are sized to be equal to one third of the contain
 ```
   
 ### Bisections  
-Bisections are divisions that are sized to be equal to one half of the container element.  Bisections are 300 pixels wide, with a 10 pixel margin.  An example of a bisection in use would look similar to this:  
+Bisections are divisions that are sized to be equal to one half of the container element.  Bisections are 460 pixels wide, with a 10 pixel margin.  An example of a bisection in use would look similar to this:  
 ```
 <div class="cf">
 	<div class="bi">
