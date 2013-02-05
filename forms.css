@@ -8,3 +8,21 @@
 /*******************************************/
 
 /* -- Imperatives -- */
+input, textarea {
+	border: 3px solid gray;
+	padding: 3px;
+			box-shadow: inset 0 0 0px #2c5a6b;
+	   -moz-box-shadow: inset 0 0 0px #2c5a6b;
+	-webkit-box-shadow: inset 0 0 0px #2c5a6b;
+			transition: box-shadow 2s;
+	   -moz-transition: box-shadow 2s;
+	  	 -o-transition: box-shadow 2s;
+	-webkit-transition: box-shadow 2s;
+	
+}
+
+input:focus, textarea:focus {
+			box-shadow: inset 0 0 3px #2c5a6b;
+	   -moz-box-shadow: inset 0 0 3px #2c5a6b;
+	-webkit-box-shadow: inset 0 0 3px #2c5a6b;
+}
