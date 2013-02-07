@@ -1,10 +1,10 @@
 /*******************************************/
-/*** -- moncurgrid CSS Grid Framework -- ***/
+/*** -- mgrid CSS Grid Framework ------- ***/
 /*** -- Navigation --------------------- ***/
 /*** -- Created By: Cody Moncur -------- ***/
 /*** -- Licenced under GPL and MIT ----- ***/
 /*** -- Created On: Jan 28, 2013 ------- ***/
-/*** -- Last Updated: Jan 31, 2013 ----- ***/
+/*** -- Last Updated: Feb 07, 2013 ----- ***/
 /*******************************************/
 
 /* -- Imperatives -- */
@@ -17,6 +17,17 @@ a:visited {
 }
 
 a:hover { color: #999; }
+
+/* -- Navigation within an Unordered List -- */
+ul.horizontal > li { float: left; }
+ul.horizontal > li > a { /* Relevant to anchors within list items */ }
+ul.horizontal > li:hover { /* Relevant to hover pseudo-element for list items */ }
+ul.horizontal > li > a:hover { /* Relevant to hover pseudo-element for anchors within list items */ }
+
+ul.vertical > li { /* Relevant to list items arranged vertically */ }
+ul.vertical > li > a { /* Relevant to anchors within list items */ }
+ul.vertical > li:hover { /* Relevant to hover pseudo-element for list items */ }
+ul.vertical > li > a:hover { /* Relevant to hover pseudo-element for anchors within list items */ }
 
 /* -- Layout Defined -- */
 .full a,

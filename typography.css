@@ -1,10 +1,10 @@
 /*******************************************/
-/*** -- moncurgrid CSS Grid Framework -- ***/
+/*** -- mgrid CSS Grid Framework ------- ***/
 /*** -- Typography --------------------- ***/
 /*** -- Created By: Cody Moncur -------- ***/
 /*** -- Licenced under GPL and MIT ----- ***/
 /*** -- Created On: Jan 28, 2013 ------- ***/
-/*** -- Last Updated: Jan 31, 2013 ----- ***/
+/*** -- Last Updated: Feb 07, 2013 ----- ***/
 /*******************************************/
 
 /* -- Imperatives -- */
@@ -62,6 +62,11 @@ p {
 .quad h4, .quad h5, .quad h6 {
 	/* Relevant to headers in quadrisections */
 }
+
+.full p { /* Relevant to paragraph text in full spans */ }
+.bi p { /* Relevant to paragraph text in bisections */ }
+.tri p { /* Relevant to paragraph text in trisections */ }
+.quad p { /* Relevant to paragraph text in quadrisections */ }
 
 /* Layout Specific */
 /* (Relevant to your project!) */
