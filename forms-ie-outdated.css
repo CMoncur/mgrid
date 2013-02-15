@@ -1,0 +1,32 @@
+/*******************************************/
+/*** -- mgrid CSS Grid Framework ------- ***/
+/*** -- Features for outdated IE ------- ***/
+/*** -- Created By: Cody Moncur -------- ***/
+/*** -- Licenced under GPL and MIT ----- ***/
+/*** -- Created On: Feb 15, 2013 ------- ***/
+/*** -- Last Updated: Feb 15, 2013 ----- ***/
+/*******************************************/
+
+input[type="password"],
+input[type="text"],
+textarea {
+	behavior: url(css/pie.htc);
+}
+
+button,
+input[type="button"],
+input[type="submit"] {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e9ef', endColorstr='#b1b6ba',GradientType=0 );
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3d9df', endColorstr='#a6aaae',GradientType=0 );
+}
+
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active {
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6aaae', endColorstr='#d3d9df',GradientType=0 );
+}
