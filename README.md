@@ -111,5 +111,5 @@ As you might have guessed, the forms.css plugin is designed to streamline form s
 The mgrid system is degisned to work on all major standards-compliant browsers (i.e. Chrome, Firefox, Opera, Safari).  mgrid also supports Internet Explorer versions 8 and later.  
 
 ## License
-mgrid is licensed under MIT and GPL.  
+mgrid is licensed under the MIT license.  
 Copyright (c) 2013 Cody Moncur
