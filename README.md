@@ -19,7 +19,7 @@ Unlike other popular grid systems that can be split into 12 or more columns, the
 ### Quadrisections  
 Quadrisections are divisions that are sized to be equal to one quarter of the container element.  Quadrisections are 220 pixels wide, with a 10 pixel margin.  An example of a quadrisection in use would look similar to this:  
 ```
-<div class="cf">
+<div class="content">
 	<div class="quad">
 		Lorem ipsum dolor sit amet
 	</div>
@@ -38,7 +38,7 @@ Quadrisections are divisions that are sized to be equal to one quarter of the co
 ### Trisections  
 Trisections are divisions that are sized to be equal to one third of the container element.  Trisections are 300 pixels wide, with a 10 pixel margin.  An example of a trisection in use would look similar to this:  
 ```
-<div class="cf">
+<div class="content">
 	<div class="tri">
 		Lorem ipsum dolor sit amet
 	</div>
@@ -54,7 +54,7 @@ Trisections are divisions that are sized to be equal to one third of the contain
 ### Bisections  
 Bisections are divisions that are sized to be equal to one half of the container element.  Bisections are 460 pixels wide, with a 10 pixel margin.  An example of a bisection in use would look similar to this:  
 ```
-<div class="cf">
+<div class="content">
 	<div class="bi">
 		Lorem ipsum dolor sit amet
 	</div>
@@ -67,7 +67,7 @@ Bisections are divisions that are sized to be equal to one half of the container
 ### Full Span  
 Full spans are divisions that are sized to span the entirety of the container element.  Full spans are 940 pixels wide, with a 10 pixel margin.  An example of a full span in use would look similar to this:  
 ```
-<div class="cf">
+<div class="content">
 	<div class="full">
 		Lorem ipsum dolor sit amet
 	</div>
@@ -79,8 +79,8 @@ The container element is a transparent divider that is 960 pixels wide.  The con
    
 ### Clearfix  
 Reviewing the code examples above, you might notice tags that look similar to this:
-```<div class="cf">```
-This method is known as a "clearfix".  Clearfix is simply an exploit that forces a parent element to match the height of it's floated child elements.  The clearfix method is used to maintain the grid's structural integrity.  
+```<div class="content">```
+These elements are "clearfixed".  A clearfix is simply an exploit that forces a parent element to match the height of it's floated child elements.  The clearfix method is used to maintain the grid's structural integrity.  
   
 ## Plugins
 The mgrid system includes optional plugins to make other facets of CSS easy as pie.  Below are a list of optional plugins:  
