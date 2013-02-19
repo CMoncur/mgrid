@@ -14,7 +14,7 @@ body {
 }
 
 /* -- Container -- */
-.cont {
+.container {
 	margin: 0 auto;
 	width: 960px;
 }
@@ -44,11 +44,11 @@ body {
 
 
 /* -- Clearfix -- */
-.cf:before, .cf:after {
+.content:before, .content:after {
     content: " ";
     display: table;
 }
 
-.cf:after {
+.content:after {
     clear: both;
 }
